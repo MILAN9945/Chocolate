@@ -1,8 +1,344 @@
-
 body {
     font-family: "Montserrat"
 }
 
 button {
     font-family: inherit;
+}
+
+/* загальні стилі */
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.importent-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+/* секція header */
+
+.header-sublogo {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+/* секція hero */
+
+.hero-button {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 183px;
+    height: 45px;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* секція benefits */
+
+.benefits-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {}
+
+.benefits-list {
+    display: flex;
+}
+
+.product-subtext {
+    color: #FD9222;
+}
+
+/* секція product */
+
+.product-list {
+    display: flex;
+    gap: 20px;
+}
+
+.product-item {
+    border-radius: 15px;
+    width: 270px;
+    height: 270px;
+}
+
+.product-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+/* секція how */
+
+.how-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: #111111;
+}
+
+.how-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+.how-subtext {
+    color: #FD9222;
+}
+
+/* секція chocolate */
+
+.chocolate-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.chocolate-item {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 270px;
+    height: 364px;
+
+    background: #fff;
+}
+
+.chocolate-subtitle {
+    text-align: center;
+}
+
+.chocolate-text {
+    text-align: center;
+}
+
+.chocolate-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+.chocolate-subtext {
+    color: #FD9222;
+}
+
+/* секція sellers */
+
+.sellers-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sellers-title {
+    text-align: center;
+}
+
+.sellers-subtext {
+    color: #FD9222;
+}
+
+.sellers-img {
+    border-radius: 15px;
+    width: 368px;
+    height: 464px;
+}
+
+.sellers-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #111111;
+
+}
+
+.sellers-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+
+
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 162px;
+    height: 50px;
+    background: #FD9222;
+}
+
+/* секція loved */
+
+.loved-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+.loved-subtext {
+    color: #FD9222;
+}
+
+.loved-list {
+    display: flex;
+    gap: 30px;
+}
+
+.loved-item {
+    text-align: center;
+}
+
+.loved-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111111;
+    border: 1px solid #FD9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 222px;
+    height: 50px;
+}
+
+/* секція explore  */
+
+.explore-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.explore-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.explore-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 172px;
+    height: 50px;
+    background: #FD9222;
+}
+
+/* секція footer */
+
+.footer-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-subtext {
+    color: #FD9222;
+}
+
+.footer-list {
+    display: flex;
+    gap: 20PX;
+}
+
+.footer-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-link-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
 }
