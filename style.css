@@ -35,12 +35,12 @@ button {
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 /* секція header */
 
@@ -61,11 +61,6 @@ button {
     color: #111111;
 }
 
-.header-list {
-    display: flex;
-    gap: 20px;
-}
-
 /* секція hero */
 
 .hero-button {
@@ -73,11 +68,7 @@ button {
     font-size: 14px;
     color: #fff;
 
-    border: 1px solid #fff;
-    border-radius: 100px;
-    padding: 14px 40px;
-    width: 183px;
-    height: 45px;
+
 }
 
 .hero-text {
@@ -98,9 +89,6 @@ button {
 
 .benefits-text {}
 
-.benefits-list {
-    display: flex;
-}
 
 
 .product-subtext {
@@ -109,10 +97,6 @@ button {
 
 /* секція product */
 
-.product-list {
-    display: flex;
-    gap: 20px;
-}
 
 .product-item {
     border-radius: 15px;
@@ -127,6 +111,10 @@ button {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #111111;
+}
+
+.product {
+    color: #FFFFFF;
 }
 
 .product-title {
@@ -164,12 +152,6 @@ button {
 
 /* секція chocolate */
 
-.chocolate-list {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-}
-
 .chocolate-item {
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -179,13 +161,6 @@ button {
     background: #fff;
 }
 
-.chocolate-subtitle {
-    text-align: center;
-}
-
-.chocolate-text {
-    text-align: center;
-}
 
 .chocolate-title {
     font-weight: 600;
@@ -201,17 +176,37 @@ button {
     color: #FD9222;
 }
 
+.chocolate-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.chocolate-button {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111111;
+
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    width: 94px;
+    height: 33px;
+    background: #FFFFFF;
+}
+
+.chocolate-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
 /* секція sellers */
 
-.sellers-list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.sellers-title {
-    text-align: center;
-}
 
 .sellers-subtext {
     color: #FD9222;
@@ -239,10 +234,19 @@ button {
 
 
     border-radius: 100px;
-    padding: 14px 40px;
     width: 162px;
     height: 50px;
     background: #FD9222;
+}
+
+.sellers-title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 117%;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #111111;
 }
 
 /* секція loved */
@@ -259,15 +263,6 @@ button {
 
 .loved-subtext {
     color: #FD9222;
-}
-
-.loved-list {
-    display: flex;
-    gap: 30px;
-}
-
-.loved-item {
-    text-align: center;
 }
 
 .loved-button {
@@ -328,10 +323,6 @@ button {
     color: #FD9222;
 }
 
-.footer-list {
-    display: flex;
-    gap: 20PX;
-}
 
 .footer-link {
     font-weight: 500;
