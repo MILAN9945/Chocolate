@@ -1,5 +1,6 @@
 body {
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 
 button {
@@ -14,7 +15,6 @@ button {
 }
 
 .title {
-    font-weight: 500;
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
@@ -54,7 +54,6 @@ button {
 }
 
 .header-link {
-    font-weight: 500;
     font-size: 14px;
     line-height: 114%;
     letter-spacing: -0.02em;
@@ -72,7 +71,6 @@ button {
 }
 
 .hero-text {
-    font-weight: 500;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.03em;
@@ -312,7 +310,6 @@ color: #111111;
 /* секція footer */
 
 .footer-title {
-    font-weight: 500;
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
@@ -325,7 +322,6 @@ color: #111111;
 
 
 .footer-link {
-    font-weight: 500;
     font-size: 14px;
     line-height: 114%;
     letter-spacing: -0.02em;
@@ -333,7 +329,6 @@ color: #111111;
 }
 
 .footer-subtitle {
-    font-weight: 500;
     font-size: 14px;
     line-height: 129%;
     text-align: center;
