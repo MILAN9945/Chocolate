@@ -7,6 +7,14 @@ button {
     font-family: inherit;
 }
 
+.container {
+   width: 1168px; 
+   padding: 0px 16px;
+   border: solid red;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 :root {
     --text-color: #fff;
     --title-color: #111111;
