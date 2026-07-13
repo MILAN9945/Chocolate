@@ -8,11 +8,11 @@ button {
 }
 
 .container {
-   width: 1168px; 
-   padding: 0px 16px;
-   border: solid red;
-   margin-left: auto;
-   margin-right: auto;
+    width: 1168px;
+    padding: 0px 16px;
+    border: solid red;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :root {
@@ -82,6 +82,11 @@ button {
 
 /* секція header */
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
 .header-sublogo {
     font-style: italic;
     font-weight: 700;
@@ -91,6 +96,11 @@ button {
     color: var(--header-sublogo-color);
 }
 
+.header-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .header-link {
     font-size: 14px;
     line-height: 114%;
@@ -98,14 +108,49 @@ button {
     color: var(--header-link-color);
 }
 
+.header-navigation {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 188px;
+    margin-right: 137px;
+    align-items: center;
+}
+
 /* секція hero */
+
+.hero {
+    background-color: #111111;
+}
+
+.hero-container {
+    display: flex;
+}
 
 .hero-button {
     font-weight: 600;
     font-size: 14px;
     color: var(--button-text-color);
+    padding: 14px 40px;
+    border-radius: 50px;
+}
 
+.hero-img {
+    width: 38px;
+    height: 38px;
+}
 
+.hero-title {
+    padding-top: 54px;
+    margin-bottom: 32px;
+}
+
+.hero-list {
+    display: flex;
+    padding-bottom: 40px;
 }
 
 .hero-text {
@@ -113,6 +158,11 @@ button {
     line-height: 129%;
     letter-spacing: -0.03em;
     color: var(--text-color);
+}
+
+.hero-scroll {
+    display: flex;
+    padding-top: 188px;
 }
 
 /* секція benefits */
