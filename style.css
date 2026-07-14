@@ -116,13 +116,19 @@ button {
     display: flex;
     gap: 24px;
     margin-left: 188px;
-    margin-right: 137px;
+    margin-right: auto;
     align-items: center;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 18px;
 }
 
 /* секція hero */
 
 .hero {
+    padding-top: 54px;
     background-color: #111111;
 }
 
@@ -144,13 +150,14 @@ button {
 }
 
 .hero-title {
-    padding-top: 54px;
+    font-weight: 500;
     margin-bottom: 32px;
+    letter-spacing: -0.03em;
+    padding-right: 572px;
 }
 
 .hero-list {
     display: flex;
-    padding-bottom: 40px;
 }
 
 .hero-text {
@@ -163,17 +170,37 @@ button {
 .hero-scroll {
     display: flex;
     padding-top: 188px;
+    gap: 14px;
 }
 
 /* секція benefits */
+
+.benefits {
+    background-color: #1E1823;
+    padding-top: 72px;
+}
 
 .benefits-subtitle {
     font-weight: 600;
     font-size: 18px;
     color: var(--benefits-subtitle-color);
+    margin-bottom: 18px;
 }
 
-.benefits-text {}
+.benefits-list {
+    display: flex;
+    gap: 88px;
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+
+.benefits-img {
+    margin-bottom: 22px;
+}
+
+.benefits-text {
+    color: rgba(255, 255, 255, 0.7);
+}
 
 
 
@@ -183,11 +210,28 @@ button {
 
 /* секція product */
 
+.product {
+  padding: 128px 0px;
+}
 
 .product-item {
     border-radius: 15px;
     width: 270px;
     height: 270px;
+    padding: 28px 36px 0px 28px;
+}
+
+.product-item:nth-child(1) {
+    background-color: #FD9222;
+}
+
+.product-item:nth-child(3) {
+    background-color: #1E1823;
+}
+
+
+.product-important {
+   border: solid #FD9222;
 }
 
 .product-subtitle {
@@ -197,9 +241,11 @@ button {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--product-subtitle-color);
+    margin-top: 36px;
+    margin-bottom: 28px;
 }
 
-.product {
+.products {
     color: var(--product-color);
 }
 
@@ -211,6 +257,19 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--title-color);
+   
+    padding: 0px 363px;
+}
+
+.product-text {
+    padding: 0px 325px;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+.product-list {
+    display: flex;
+    gap: 19px;
 }
 
 /* секція how */
