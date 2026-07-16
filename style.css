@@ -29,8 +29,8 @@ button {
     --product-color: #FFFFFF;
     --how-subtitle-color: #111111;
     --chocolate-item-color: #fff;
-    --chocolate-title-color: #fff;
-    --chocolate-subtitle-color: #fff;
+    --chocolate-title-color: #111111;
+    --chocolate-subtitle-color: #111111;
     --chocolate-button-bg-color: #FFFFFF;
     --chocolate-button-color: #111111;
     --sellers-text-color: #111111;
@@ -274,11 +274,23 @@ button {
 
 /* секція how */
 
+.how-pack {
+    display: flex;
+    gap: 20px;
+}
+
+.how-box {
+    padding: 32px;
+}
+
 .how-subtitle {
     font-weight: 600;
     font-size: 18px;
     line-height: 133%;
     color: var(--how-subtitle-color);
+
+    margin-bottom: 28px;
+    margin-right: 102px;
 }
 
 .how-title {
@@ -289,13 +301,40 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--title-color);
+    
+    margin-bottom: 50px;
 }
 
 .how-subtext {
     color: var(--subtext-color);
 }
 
+.how-item:nth-child(1) {
+    margin-bottom: 24px;
+}
+
+.how-item:nth-child(2) {
+    margin-bottom: 24px;
+}
+
+.how-item:nth-child(3) {
+    margin-bottom: 24px;
+}
+
+.how-item:nth-child(4) {
+    margin-bottom: 24px;
+}
 /* секція chocolate */
+
+.chocolate {
+    padding-top: 41px;
+    padding-bottom: 173px;
+}
+
+.chocolate-list {
+    display: flex;
+    gap: 18px;
+}
 
 .chocolate-item {
     border: 1px solid rgba(17, 17, 17, 0.1);
@@ -304,6 +343,7 @@ button {
     height: 364px;
 
     background: var(--chocolate-item-color);
+    padding: 32px 20px;
 }
 
 
@@ -315,6 +355,7 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--chocolate-title-color);
+    margin-bottom: 50px;
 }
 
 .chocolate-subtext {
@@ -327,7 +368,10 @@ button {
     line-height: 133%;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: var(--text-color);
+    color: var(--chocolate-subtitle-color);
+
+    text-align: center;
+    margin-top: 8px;
 }
 
 .chocolate-button {
@@ -340,6 +384,9 @@ button {
     width: 94px;
     height: 33px;
     background: var(--chocolate-button-bg-color);
+
+    margin-left: 67px;
+    margin-right: 67px;
 }
 
 .chocolate-text {
@@ -348,6 +395,9 @@ button {
     line-height: 117%;
     letter-spacing: -0.02em;
     color: rgba(17, 17, 17, 0.7);
+
+    text-align: center;
+    margin-bottom: 18px;
 }
 
 /* секція sellers */
