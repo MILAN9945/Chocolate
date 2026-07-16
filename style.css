@@ -211,7 +211,7 @@ button {
 /* секція product */
 
 .product {
-  padding: 128px 0px;
+    padding: 128px 0px;
 }
 
 .product-item {
@@ -231,7 +231,7 @@ button {
 
 
 .product-important {
-   border: solid #FD9222;
+    border: solid #FD9222;
 }
 
 .product-subtitle {
@@ -257,7 +257,7 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--title-color);
-   
+
     padding: 0px 363px;
 }
 
@@ -301,7 +301,7 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--title-color);
-    
+
     margin-bottom: 50px;
 }
 
@@ -324,6 +324,7 @@ button {
 .how-item:nth-child(4) {
     margin-bottom: 24px;
 }
+
 /* секція chocolate */
 
 .chocolate {
@@ -402,6 +403,20 @@ button {
 
 /* секція sellers */
 
+.sellers {
+    padding-bottom: 128px;
+}
+
+.sellers-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.sellers-box {
+    display: flex;
+}
 
 .sellers-subtext {
     color: var(--subtext-color);
@@ -420,6 +435,7 @@ button {
     letter-spacing: -0.02em;
     color: var(--sellers-text-color);
 
+    /* margin-right: 567px; */
 }
 
 .sellers-button {
@@ -427,11 +443,14 @@ button {
     font-size: 18px;
     color: var(--button-text-color);
 
-
-    border-radius: 100px;
     width: 162px;
     height: 50px;
+    border-radius: 100px;
     background: var(--sellers-button-bg-color);
+
+    padding: 14px 40px;
+    margin-left: 567px;
+    margin-bottom: 20px;
 }
 
 .sellers-title {
@@ -456,8 +475,35 @@ button {
     color: var(--title-color);
 }
 
+.loved-list {
+    display: flex;
+    gap: 28px;
+    margin:49px 0px 94px;
+}
+
+.loved-victoria {
+    margin: 0px 140px;
+}
+
+.loved-nazar {
+    margin: 0px 140px;
+}
+
+.loved-olena {
+    margin: 0px 140px;
+}
+
+.loved-subtitle {
+    text-align: center;
+}
+
+.loved-text {
+    text-align: center;
+}
+
 .loved-subtext {
     color: var(--subtext-color);
+
 }
 
 .loved-button {
@@ -470,9 +516,15 @@ button {
     padding: 14px 40px;
     width: 222px;
     height: 50px;
+
+    margin: 0px 457px;
 }
 
 /* секція explore  */
+
+.explore {
+    background-color: #111111;
+}
 
 .explore-title {
     font-weight: 600;
@@ -482,6 +534,8 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--explore-title-color);
+
+    margin: 72px 411px 24px;
 }
 
 .explore-text {
@@ -491,6 +545,8 @@ button {
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--text-color);
+
+    margin: 0px 367px 24px;
 }
 
 .explore-button {
@@ -503,6 +559,8 @@ button {
     width: 172px;
     height: 50px;
     background: var(--explore-button-bg-color);
+
+    margin: 0px 514px 72px;
 }
 
 /* секція footer */
