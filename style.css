@@ -97,8 +97,9 @@ button {
 }
 
 .header-logo {
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .header-link {
@@ -128,12 +129,18 @@ button {
 /* секція hero */
 
 .hero {
-    padding-top: 54px;
+    padding-top: 381px;
+    padding-bottom: 40px;
     background-color: #111111;
 }
 
 .hero-container {
     display: flex;
+}
+
+.hero-box {
+    display: flex;
+
 }
 
 .hero-button {
@@ -142,6 +149,13 @@ button {
     color: var(--button-text-color);
     padding: 14px 40px;
     border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.buy {
+    background-color: #FD9222;
+    border: none;
 }
 
 .hero-img {
@@ -153,11 +167,12 @@ button {
     font-weight: 500;
     margin-bottom: 32px;
     letter-spacing: -0.03em;
-    padding-right: 572px;
+    max-width: 484px;
 }
 
 .hero-list {
     display: flex;
+    gap: 14px;
 }
 
 .hero-text {
@@ -169,15 +184,18 @@ button {
 
 .hero-scroll {
     display: flex;
-    padding-top: 188px;
     gap: 14px;
+    margin-left: auto;
+    align-items: center;
 }
+
 
 /* секція benefits */
 
 .benefits {
     background-color: #1E1823;
-    padding-top: 72px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .benefits-subtitle {
@@ -189,9 +207,7 @@ button {
 
 .benefits-list {
     display: flex;
-    gap: 88px;
-    padding-top: 50px;
-    padding-bottom: 68px;
+    gap: 70px;
 }
 
 .benefits-img {
@@ -200,6 +216,7 @@ button {
 
 .benefits-text {
     color: rgba(255, 255, 255, 0.7);
+    max-width: 308px;
 }
 
 
@@ -258,13 +275,15 @@ button {
     text-align: center;
     color: var(--title-color);
 
-    padding: 0px 363px;
+    max-width: 411px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-text {
-    padding: 0px 325px;
-    margin-top: 28px;
-    margin-bottom: 50px;
+    text-align: center;
+    max-width: 486px;
+    margin: 28px auto 50px;
 }
 
 .product-list {
@@ -305,24 +324,14 @@ button {
     margin-bottom: 50px;
 }
 
+.how-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .how-subtext {
     color: var(--subtext-color);
-}
-
-.how-item:nth-child(1) {
-    margin-bottom: 24px;
-}
-
-.how-item:nth-child(2) {
-    margin-bottom: 24px;
-}
-
-.how-item:nth-child(3) {
-    margin-bottom: 24px;
-}
-
-.how-item:nth-child(4) {
-    margin-bottom: 24px;
 }
 
 /* секція chocolate */
@@ -386,8 +395,8 @@ button {
     height: 33px;
     background: var(--chocolate-button-bg-color);
 
-    margin-left: 67px;
-    margin-right: 67px;
+    display: block;
+    margin: 0px auto;
 }
 
 .chocolate-text {
@@ -435,7 +444,7 @@ button {
     letter-spacing: -0.02em;
     color: var(--sellers-text-color);
 
-    /* margin-right: 567px; */
+    max-width: 462px;
 }
 
 .sellers-button {
@@ -448,9 +457,7 @@ button {
     border-radius: 100px;
     background: var(--sellers-button-bg-color);
 
-    padding: 14px 40px;
-    margin-left: 567px;
-    margin-bottom: 20px;
+    margin-left: auto;
 }
 
 .sellers-title {
@@ -465,6 +472,10 @@ button {
 
 /* секція loved */
 
+.loved {
+    padding-bottom: 128px;
+}
+
 .loved-title {
     font-weight: 600;
     font-size: 24px;
@@ -475,10 +486,14 @@ button {
     color: var(--title-color);
 }
 
+.loved-subtitle {
+    margin: 18px 0px 24px;
+}
+
 .loved-list {
     display: flex;
     gap: 28px;
-    margin:49px 0px 94px;
+    margin: 49px 0px 94px;
 }
 
 .loved-victoria {
@@ -517,7 +532,9 @@ button {
     width: 222px;
     height: 50px;
 
-    margin: 0px 457px;
+    display: block;
+    margin: 0px auto;
+    background-color: transparent;
 }
 
 /* секція explore  */
@@ -535,7 +552,8 @@ button {
     text-align: center;
     color: var(--explore-title-color);
 
-    margin: 72px 411px 24px;
+    max-width: 372px;
+    margin: 72px auto 24px;
 }
 
 .explore-text {
@@ -546,7 +564,8 @@ button {
     text-align: center;
     color: var(--text-color);
 
-    margin: 0px 367px 24px;
+    max-width: 467px;
+    margin: 0px auto 24px;
 }
 
 .explore-button {
@@ -560,16 +579,44 @@ button {
     height: 50px;
     background: var(--explore-button-bg-color);
 
-    margin: 0px 514px 72px;
+    display: block;
+    margin: 0px auto 72px;
 }
 
 /* секція footer */
+
+.footer {
+    background-color: #1E1823;
+    padding: 50px 0px 50px;
+}
+
+.footer-boxes {
+    display: flex;
+    margin: 0px 0px 62px;
+}
 
 .footer-title {
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
     color: var(--footer-title-color);
+    max-width: 300px;
+}
+
+.footer-masengers {
+    display: flex;
+    gap: 18px;
+    margin-left: 63px;
+}
+
+.footer-contact-box {
+    margin-left: auto;
+}
+
+.footer-list-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .footer-subtext {
@@ -589,6 +636,8 @@ button {
     line-height: 129%;
     text-align: center;
     color: var(--footer-subtitle-color);
+
+    margin-bottom: 14px;
 }
 
 .footer-link-contact {
@@ -598,4 +647,9 @@ button {
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--footer-link-contact-color);
+}
+
+.footer-list {
+    display: flex;
+    gap: 24px;
 }
