@@ -228,7 +228,7 @@ button {
 /* секція product */
 
 .product {
-    padding: 128px 0px;
+    padding: 128px 0px 64px;
 }
 
 .product-item {
@@ -293,6 +293,10 @@ button {
 
 /* секція how */
 
+.how {
+padding: 64px 0px 64px;
+}
+
 .how-pack {
     display: flex;
     gap: 20px;
@@ -337,7 +341,7 @@ button {
 /* секція chocolate */
 
 .chocolate {
-    padding-top: 41px;
+    padding: 64px 0px 64px;
     padding-bottom: 173px;
 }
 
@@ -413,7 +417,7 @@ button {
 /* секція sellers */
 
 .sellers {
-    padding-bottom: 128px;
+padding-top: 64px 0px 64px;
 }
 
 .sellers-list {
@@ -473,7 +477,7 @@ button {
 /* секція loved */
 
 .loved {
-    padding-bottom: 128px;
+    padding:64px 0px 64px;
 }
 
 .loved-title {
@@ -540,6 +544,7 @@ button {
 /* секція explore  */
 
 .explore {
+    padding: 64px 0px 72px;
     background-color: #111111;
 }
 
@@ -553,7 +558,7 @@ button {
     color: var(--explore-title-color);
 
     max-width: 372px;
-    margin: 72px auto 24px;
+    margin: 0px auto 24px;
 }
 
 .explore-text {
@@ -580,7 +585,7 @@ button {
     background: var(--explore-button-bg-color);
 
     display: block;
-    margin: 0px auto 72px;
+    margin: 0px auto 0px;
 }
 
 /* секція footer */
