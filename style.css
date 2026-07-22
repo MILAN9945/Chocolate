@@ -1,6 +1,8 @@
 body {
     font-family: "Montserrat";
     font-weight: 500;
+
+    background-color: #E2E2E2;
 }
 
 button {
@@ -294,7 +296,7 @@ button {
 /* секція how */
 
 .how {
-padding: 64px 0px 64px;
+    padding: 64px 0px 64px;
 }
 
 .how-pack {
@@ -417,7 +419,7 @@ padding: 64px 0px 64px;
 /* секція sellers */
 
 .sellers {
-padding-top: 64px 0px 64px;
+    padding-top: 64px 0px 64px;
 }
 
 .sellers-list {
@@ -477,7 +479,7 @@ padding-top: 64px 0px 64px;
 /* секція loved */
 
 .loved {
-    padding:64px 0px 64px;
+    padding: 64px 0px 64px;
 }
 
 .loved-title {
@@ -498,6 +500,15 @@ padding-top: 64px 0px 64px;
     display: flex;
     gap: 28px;
     margin: 49px 0px 94px;
+}
+
+.loved-item {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 360px;
+    height: 200px;
+    box-shadow: 0 9px 27px 0 rgba(215, 228, 249, 0.25);
+    background: #fff;
 }
 
 .loved-victoria {
@@ -601,6 +612,7 @@ padding-top: 64px 0px 64px;
 }
 
 .footer-title {
+    font-weight: 500;
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
