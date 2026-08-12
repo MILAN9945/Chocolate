@@ -7,7 +7,7 @@ body {
     font-family: "Montserrat";
     font-weight: 500;
 
-    background-color: #E2E2E2;
+    background-color: #FAFAFA;
 }
 
 button {
@@ -473,6 +473,7 @@ button {
     background: var(--sellers-button-bg-color);
 
     margin-left: auto;
+    border: none;
 }
 
 .sellers-title {
