@@ -133,6 +133,15 @@ button {
     gap: 18px;
 }
 
+.header-contact-img {
+    transition: filter 0.3s ease;
+}
+
+.header-contact-img:hover {
+    filter: invert(56%) sepia(93%) saturate(1251%) hue-rotate(345deg) brightness(101%) contrast(101%);
+}
+
+
 /* секція hero */
 
 .hero {
@@ -164,8 +173,19 @@ button {
     border: 1px solid #fff;
 }
 
+.hero-button:hover {
+    border: 1px solid #FD9222;
+    color: #FD9222;
+}
+
 .buy {
     background-color: #FD9222;
+    border: none;
+}
+
+.buy:hover {
+    background-color: #fcf1e0;
+    color: #FD9222;
     border: none;
 }
 
@@ -173,6 +193,7 @@ button {
     width: 38px;
     height: 38px;
 }
+
 
 .hero-title {
     font-weight: 500;
@@ -193,13 +214,16 @@ button {
     color: var(--text-color);
 }
 
+.hero-text:hover {
+    color: #FD9222;
+}
+
 .hero-scroll {
     display: flex;
     gap: 14px;
     margin-left: auto;
     align-items: center;
 }
-
 
 /* секція benefits */
 
@@ -476,6 +500,12 @@ button {
     border: none;
 }
 
+.sellers-button:hover {
+    background-color: #fcf1e0;
+    color: #FD9222;
+    border: none;
+}
+
 .sellers-title {
     font-weight: 600;
     font-size: 24px;
@@ -556,6 +586,12 @@ button {
     background-color: transparent;
 }
 
+
+.loved-button:hover {
+ background-color: #FD9222;
+ color: #FFFFFF;
+}
+
 /* секція explore  */
 
 .explore {
@@ -604,6 +640,11 @@ button {
 
     display: block;
     margin: 0px auto 0px;
+}
+
+.explore-button:hover {
+   background-color: #FCF1E0;
+   color: #FD9222;
 }
 
 /* секція footer */
@@ -676,4 +717,8 @@ button {
 .footer-list {
     display: flex;
     gap: 24px;
+}
+
+.footer-img:hover {
+    filter: invert(56%) sepia(93%) saturate(1251%) hue-rotate(345deg) brightness(101%) contrast(101%);
 }
