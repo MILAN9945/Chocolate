@@ -109,6 +109,20 @@ button {
     gap: 4px;
 }
 
+.header-logo-svg {
+    fill: #FD9222;
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease;
+}
+
+.header-svg {
+    width: 24px;
+    height: 24px;
+    fill: #111111;
+
+}
+
 .header-link {
     font-size: 14px;
     line-height: 114%;
@@ -137,8 +151,8 @@ button {
     transition: filter 0.3s ease;
 }
 
-.header-contact-img:hover {
-    filter: invert(56%) sepia(93%) saturate(1251%) hue-rotate(345deg) brightness(101%) contrast(101%);
+.header-svg:hover {
+    fill: #FD9222;
 }
 
 
@@ -176,6 +190,24 @@ button {
 .hero-button:hover {
     border: 1px solid #FD9222;
     color: #FD9222;
+}
+
+.hero-svg {
+    width: 22px;
+    height: 22px;
+    fill: #FD9222;
+}
+
+.hero-svg-wrapper {
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buy {
@@ -245,8 +277,15 @@ button {
     gap: 70px;
 }
 
-.benefits-img {
+.benefits-svg {
+    fill: #FD9222;
+    width: 62px;
+    height: 62px;
     margin-bottom: 22px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+  padding: 15px;
 }
 
 .benefits-text {
@@ -588,8 +627,8 @@ button {
 
 
 .loved-button:hover {
- background-color: #FD9222;
- color: #FFFFFF;
+    background-color: #FD9222;
+    color: #FFFFFF;
 }
 
 /* секція explore  */
@@ -640,11 +679,12 @@ button {
 
     display: block;
     margin: 0px auto 0px;
+    border: none;
 }
 
 .explore-button:hover {
-   background-color: #FCF1E0;
-   color: #FD9222;
+    background-color: #FCF1E0;
+    color: #FD9222;
 }
 
 /* секція footer */
@@ -672,6 +712,12 @@ button {
     display: flex;
     gap: 18px;
     margin-left: 63px;
+}
+
+.footer-svg {
+ width: 24px;
+    height: 24px;
+    fill: #ffffff;
 }
 
 .footer-contact-box {
@@ -719,6 +765,6 @@ button {
     gap: 24px;
 }
 
-.footer-img:hover {
-    filter: invert(56%) sepia(93%) saturate(1251%) hue-rotate(345deg) brightness(101%) contrast(101%);
+.footer-svg:hover {
+  fill: #FD9222;
 }
