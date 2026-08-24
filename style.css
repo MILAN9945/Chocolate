@@ -119,8 +119,8 @@ button {
 .header-svg {
     width: 24px;
     height: 24px;
-    fill: #111111;
-
+    fill: none;
+    stroke: #111111;
 }
 
 .header-link {
@@ -152,7 +152,7 @@ button {
 }
 
 .header-svg:hover {
-    fill: #FD9222;
+    stroke: #FD9222;
 }
 
 
@@ -239,6 +239,26 @@ button {
     gap: 14px;
 }
 
+.hero-scroll {
+    display: flex;
+    gap: 14px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.hero-scroll:hover>.hero-text {
+    color: #FD9222;
+}
+
+.hero-scroll:hover>.hero-svg-wrapper {
+    background-color: #FD9222;
+}
+
+.hero-scroll:hover .hero-svg{
+    fill: #FFFFFF;
+}
+
+
 .hero-text {
     font-size: 14px;
     line-height: 129%;
@@ -246,16 +266,11 @@ button {
     color: var(--text-color);
 }
 
-.hero-text:hover {
+/* .hero-text:hover {
     color: #FD9222;
-}
+} */
 
-.hero-scroll {
-    display: flex;
-    gap: 14px;
-    margin-left: auto;
-    align-items: center;
-}
+
 
 /* секція benefits */
 
@@ -285,7 +300,7 @@ button {
 
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 365px;
-  padding: 15px;
+    padding: 15px;
 }
 
 .benefits-text {
@@ -714,12 +729,6 @@ button {
     margin-left: 63px;
 }
 
-.footer-svg {
- width: 24px;
-    height: 24px;
-    fill: #ffffff;
-}
-
 .footer-contact-box {
     margin-left: auto;
 }
@@ -765,6 +774,13 @@ button {
     gap: 24px;
 }
 
+.footer-svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #FFFFFF;
+}
+
 .footer-svg:hover {
-  fill: #FD9222;
+    stroke: #FD9222;
 }
