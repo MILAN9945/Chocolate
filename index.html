@@ -330,7 +330,7 @@
                         around for thousands of years and was first discovered by the Native American tribe called the
                         Mayans.
                     </p>
-                    <button class="sellers-button" type="button">Buy now</button>
+                    <button class="sellers-button" type="button" data-open>Buy now</button>
                 </div>
             </div>
         </section>
@@ -438,6 +438,61 @@
             </ul>
         </div>
     </footer>
+    <div class="backdrop is-headen" data-modal>
+        <div class="modal" >
+            <button type="button" class="close" data-close>
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 7L7 21" stroke="#111111" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M7 7L21 21" stroke="#111111" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <h2 class="backdrop-title">BUY <span class="backdrop-subtitle">NOW</span></h2>
+            <ul class="list">
+                <li class="item">
+                    <img src="./img/modal-chocolate1.webp" alt="шоколад1" class="pages">
+                    <button class="cost">100 g</button>
+                </li>
+                <li class="item">
+                    <img src="./img/modal-chocolate2.webp" alt="шоколад2" class="pages">
+                    <button class="cost">200 g</button>
+                </li>
+                <li class="item">
+                    <img src="./img/modal-chocolate3.webp" alt="шоколад3" class="pages">
+                    <button class="cost">300 g</button>
+                </li>
+            </ul>
+            <ul class="form-list">
+                <li class="form-item">
+                    <label for="" class="lbl">Personal information</label>
+                    <div class="form-subbox">
+                        <input placeholder="Name" type="text" class="inpt">
+
+                        <input placeholder="Surname" type="text" class="inpt">
+                    </div>
+                </li>
+                <li class="form-item">
+                    <label for="" class="lbl">Email</label>
+                    <input placeholder="Enter your email" type="text" class="inpt">
+                </li>
+                <li class="form-item">
+                    <label for="" class="lbl">Phone number</label>
+                    <input placeholder="Phone number" type="text" class="inpt">
+                </li>
+                <li class="form-item">
+                    <label for="" class="lbl">Card number</label>
+                    <input placeholder="Enter card" type="text" class="inpt">
+                </li>
+                <li class="form-item">
+                    <label for="" class="lbl">Comment</label>
+                    <input placeholder="Enter text" type="text" class="inpt">
+                </li>
+            </ul>
+            <button type="button" class="submit">Submit</button>
+        </div>
+    </div>
+    <script type="module" src="./js/modal.js"></script>
 </body>
 
 </html>

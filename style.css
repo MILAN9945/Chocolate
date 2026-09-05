@@ -400,7 +400,7 @@ button {
     height: 100%;
     opacity: 0;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 .product-item:hover .product-overlay {
@@ -904,4 +904,141 @@ button {
 
 .footer-svg:hover {
     stroke: #FD9222;
+}
+
+/* modal  */
+
+.backdrop {
+    background-color: #0000007c;
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    background-color: #FAFBFF;
+    width: 609px;
+    max-width: 100%;
+    max-height: calc(100vh - 40px);
+    height: auto;
+    padding: 48px;
+    position: relative;
+    overflow: scroll;
+}
+
+.close {
+    top: 16px;
+    right: 16px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.backdrop-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FD9222;
+}
+
+.backdrop-subtitle {
+    color: #111111;
+}
+
+.list {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.item {
+    padding: 24px 20px 18px 20px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 160px;
+    height: 196px
+}
+
+.pages {
+    width: 120px;
+}
+
+.cost {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    padding: 8px 27px;
+    width: auto;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    padding: 8px 29px;
+    margin: 14px auto 0px;
+    display: block;
+    background-color: #FAFAFA;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-item {}
+
+.form-subbox {
+    display: flex;
+    gap: 21px;
+}
+
+.lbl {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.inpt {
+    width: 100%;
+
+    border: 1.50px solid rgba(17, 17, 17, 0.05);
+    border-radius: 13px;
+    padding: 22px 24px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+    margin-top: 8px;
+
+}
+
+
+.submit {
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 133px;
+    height: 45px;
+    background-color: #FD9222;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    margin-top: 18px;
 }
