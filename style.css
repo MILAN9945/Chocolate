@@ -1028,6 +1028,11 @@ button {
 
 }
 
+.biggest {
+    height: 137px;
+    padding: 0px 0px 93px 24px;
+}
+
 
 .submit {
     border-radius: 100px;
@@ -1041,4 +1046,100 @@ button {
     color: #fff;
     border: none;
     margin-top: 18px;
+}
+
+.submit:hover {
+    background-color: #fcf1e0;
+    color: #FD9222;
+    transform: scale(1.25);
+    transition-duration: 1500ms;
+}
+
+.second-backdrop {
+    background-color: #0000007c;
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+}
+
+.second-modal {
+    background-color: #FAFBFF;
+    border-radius: 15px;
+    width: 517px;
+    max-width: 100%;
+    max-height: calc(100vh - 40px);
+    height: auto;
+    padding: 40px;
+    position: relative;
+}
+
+.second-btn-close {
+    background-color: transparent;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border: none;
+}
+
+.second-svg {
+    fill: #111111;
+    stroke: #111111;
+}
+
+.second-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    max-width: 298px;
+    margin-bottom: 40px;
+}
+
+.second-subtitle {
+    color: #FD9222;
+}
+
+.second-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.second-inpt {
+    width: 100%;
+
+    border: 1.50px solid rgba(17, 17, 17, 0.05);
+    border-radius: 13px;
+    padding: 22px 24px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.second-send {
+    border-radius: 100px;
+    padding: 14px 40px;
+    background-color: #FD9222;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+.second-send:hover {
+    color: #FD9222;
+    background-color: #fcf1e0;
+    transform: scale(1.25);
+    transition-duration: 1500ms;
 }

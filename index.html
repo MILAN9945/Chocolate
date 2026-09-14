@@ -365,7 +365,7 @@
                             inside. The wafer is soft but crunchy.</p>
                     </li>
                 </ul>
-                <button class="loved-button">Leave a review</button>
+                <button class="loved-button" data-second-open>Leave a review</button>
             </div>
         </section>
         <section class="explore">
@@ -439,7 +439,7 @@
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal" >
+        <div class="modal">
             <button type="button" class="close" data-close>
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21 7L7 21" stroke="#111111" stroke-width="2" stroke-linecap="round"
@@ -486,13 +486,44 @@
                 </li>
                 <li class="form-item">
                     <label for="" class="lbl">Comment</label>
-                    <input placeholder="Enter text" type="text" class="inpt">
+                    <input placeholder="Enter text" type="text" class="inpt biggest">
                 </li>
             </ul>
-            <button type="button" class="submit">Submit</button>
+            <button type="submit" class="submit">Submit</button>
         </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
+
+
+    <div class="second-backdrop is-hidden" data-second-modal>
+        <div class="second-modal">
+            <button class="second-btn-close" data-second-close>
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 7L7 21" stroke="#111111" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M7 7L21 21" stroke="#111111" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <h2 class="second-title">LEAVE A REVIEW ABOUT <span class="second-subtitle">OUR CHOCOLATE</span></h2>
+            <ul class="second-list">
+                <li class="second-item">
+                    <input placeholder="Name" type="text" class="second-inpt">
+                </li>
+                <li class="second-item">
+                    <input placeholder="Email" type="text" class="second-inpt">
+                </li>
+                <li class="second-item">
+                    <input placeholder="+380 I Phone number" type="text" class="second-inpt">
+                </li>
+                <li class="second-item">
+                    <input placeholder="Enter text" type="text" class="second-inpt biggest">
+                </li>
+            </ul>
+            <button class="second-send" type="submit">Send</button>
+        </div>
+    </div>
+<script type="module" src="./js/secondd-modal.js"></script>
 </body>
 
 </html>
