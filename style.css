@@ -88,6 +88,10 @@ button {
     overflow: hidden;
 }
 
+.smoothness {
+    transition-duration: 1s;
+}
+
 /* секція header */
 
 .header {
@@ -139,6 +143,12 @@ button {
     color: var(--header-link-color);
 }
 
+.header-link:hover {
+    color: #FD9222;
+    transition-duration: 1s;
+}
+
+
 .header-navigation {
     display: flex;
 }
@@ -162,6 +172,7 @@ button {
 
 .header-svg:hover {
     stroke: #FD9222;
+    transition-duration: 1s;
 }
 
 
@@ -199,6 +210,7 @@ button {
 .hero-button:hover {
     border: 1px solid #FD9222;
     color: #FD9222;
+    transition-duration: 1s;
 }
 
 .hero-svg {
@@ -228,6 +240,7 @@ button {
     background-color: #fcf1e0;
     color: #FD9222;
     border: none;
+    transition-duration: 1s;
 }
 
 .hero-img {
@@ -257,14 +270,17 @@ button {
 
 .hero-scroll:hover>.hero-text {
     color: #FD9222;
+    transition-duration: 1s;
 }
 
 .hero-scroll:hover>.hero-svg-wrapper {
     background-color: #FD9222;
+    transition-duration: 1s;
 }
 
 .hero-scroll:hover .hero-svg {
     fill: #FFFFFF;
+    transition-duration: 1s;
 }
 
 
@@ -401,10 +417,12 @@ button {
     opacity: 0;
     padding: 20px;
     border-radius: 14px;
+    transition-duration: 1s;
 }
 
 .product-item:hover .product-overlay {
     opacity: 1;
+    transition-duration: 1s;
 }
 
 .product-overlay-title {
@@ -679,6 +697,7 @@ button {
     background-color: #fcf1e0;
     color: #FD9222;
     border: none;
+    transition-duration: 1s;
 }
 
 .sellers-title {
@@ -705,10 +724,11 @@ button {
     text-transform: uppercase;
     text-align: center;
     color: var(--title-color);
+    margin-bottom: 91px;
 }
 
 .loved-subtitle {
-    margin: 18px 0px 24px;
+    margin: 54px 0px 24px;
 }
 
 .loved-list {
@@ -724,11 +744,17 @@ button {
     box-shadow: 0 9px 27px 0 rgba(215, 228, 249, 0.25);
     background: #fff;
     padding: 0px 24px 42px;
+    position: relative;
+    overflow: visible;
+    height: 200px;
 }
 
 .loved-img {
     margin: 0px auto;
     display: block;
+    position: absolute;
+    top: -42px;
+    right: 140px;
 }
 
 .loved-subtitle {
@@ -765,6 +791,7 @@ button {
 .loved-button:hover {
     background-color: #FD9222;
     color: #FFFFFF;
+    transition-duration: 1s;
 }
 
 /* секція explore  */
@@ -821,6 +848,7 @@ button {
 .explore-button:hover {
     background-color: #FCF1E0;
     color: #FD9222;
+    transition-duration: 1s;
 }
 
 /* секція footer */
@@ -872,6 +900,11 @@ button {
     color: var(--footer-link-color);
 }
 
+.footer-link:hover {
+    color: #FD9222;
+    transition-duration: 1s;
+}
+
 .footer-subtitle {
     font-size: 14px;
     line-height: 129%;
@@ -904,6 +937,7 @@ button {
 
 .footer-svg:hover {
     stroke: #FD9222;
+    transition-duration: 1s;
 }
 
 /* modal  */
@@ -937,7 +971,9 @@ button {
     height: auto;
     padding: 48px;
     position: relative;
-    overflow: scroll;
+    overflow: auto;
+    border-radius: 15px;
+
 }
 
 .close {
@@ -1141,5 +1177,99 @@ button {
     color: #FD9222;
     background-color: #fcf1e0;
     transform: scale(1.25);
+    transition-duration: 1500ms;
+}
+
+
+.last-backdrop {
+    background-color: #0000007c;
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+}
+
+.last-modal {
+    background-image: url(./img/bg-last-modal.webp);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 538px;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+
+}
+
+.last-btn-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.last-modal-box {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #FFFFFF;
+    margin-top: 196px;
+    padding: 40px;
+    height: auto;
+}
+
+.last-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    max-width: 298px;
+    margin-bottom: 28px;
+}
+
+.last-subtitle {
+    color: #FD9222;
+}
+
+.last-inpt {
+    border: 1.50px solid rgba(17, 17, 17, 0.05);
+    border-radius: 30px;
+    padding: 13px 24px;
+
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #40404030;
+}
+
+.last-subbox {
+    display: flex;
+    gap: 8px;
+}
+
+.last-subscribe {
+    border-radius: 100px;
+    padding: 17px 40px;
+    background-color: #FD9222;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+.last-subscribe:hover {
+    color: #FD9222;
+    background-color: #fcf1e0;
+    transform: scale(1.05);
     transition-duration: 1500ms;
 }

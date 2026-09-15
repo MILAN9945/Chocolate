@@ -377,7 +377,7 @@
                     leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care,
                     each
                     piece is a work of art that is sure to please.</p>
-                <button class="explore-button" type="button">Subscribe</button>
+                <button class="explore-button" type="button" data-last-open>Subscribe</button>
             </div>
         </section>
     </main>
@@ -438,7 +438,7 @@
             </ul>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden smoothness" data-modal>
         <div class="modal">
             <button type="button" class="close" data-close>
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -495,7 +495,7 @@
     <script type="module" src="./js/modal.js"></script>
 
 
-    <div class="second-backdrop is-hidden" data-second-modal>
+    <div class="second-backdrop is-hidden smoothness" data-second-modal>
         <div class="second-modal">
             <button class="second-btn-close" data-second-close>
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -523,7 +523,33 @@
             <button class="second-send" type="submit">Send</button>
         </div>
     </div>
-<script type="module" src="./js/secondd-modal.js"></script>
+    <script type="module" src="./js/secondd-modal.js"></script>
+
+
+    <div class="last-backdrop is-hidden smoothness" data-last-modal>
+        <div class="last-modal">
+            <button class="last-btn-close" data-second-close data-last-close>
+                <svg class="last-btn-close" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 7L7 21" stroke="white" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M7 7L21 21" stroke="white" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+            </button>
+            <div class="last-modal-box">
+                <h2 class="last-title">Explore our
+                    <span class="last-subtitle">new chocolate</span> first!
+                </h2>
+                <div class="last-subbox">
+                    <input class="last-inpt" placeholder="Enter your email" type="text">
+                    <button class="last-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script type="module" src="./js/last-modal.js"></script>
 </body>
 
 </html>
