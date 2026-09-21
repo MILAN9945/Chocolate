@@ -423,6 +423,7 @@ button {
 .product-item:hover .product-overlay {
     opacity: 1;
     transition-duration: 1s;
+    box-shadow: 1px 3px 15px 0px #000000;
 }
 
 .product-overlay-title {

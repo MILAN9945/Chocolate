@@ -14,6 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>chocolate</title>
 </head>
 
@@ -21,14 +22,15 @@
     <header id="home" class="header">
         <div class="container header-container">
             <nav class="header-navigation">
-                <a class="header-logo" href="./index.html">
+                <a class="header-logo" href="./index.html" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" data-aos-duration="2000">
                     <span class="header-sublogo">SIMPLY CHOCOLATE</span>
                     <!-- <img class="header-logo-img" src="./img/chocolate_logo.webp" alt="Лого шоколад"> -->
                     <svg class="header-logo-svg">
                         <use href="./icon/symbol-defs.svg#icon-logo-chocolate"></use>
                     </svg>
                 </a>
-                <ul class="header-list">
+                <ul class="header-list" data-aos="zoom-in" data-aos-duration="2000">
                     <li class="header-item">
                         <a class="header-link" href="#home">Home</a>
                     </li>
@@ -45,7 +47,7 @@
                         <a class="header-link" href="#chocolate">Chocolate is loved</a>
                     </li>
                 </ul>
-                <ul class="header-contacts">
+                <ul class="header-contacts" data-aos="fade-left" data-aos-duration="2000">
                     <li class="header-contact">
                         <a class="header-instagram" href="https://www.instagram.com">
                             <!-- <img class="header-contact-img" src="./img/instagram.webp" alt="інстаграм"> -->
@@ -70,13 +72,13 @@
         <!-- hero -->
         <section class="hero">
             <div class="container hero-container">
-                <h1 class="hero-title title">
+                <h1 class="hero-title title" data-aos="fade-right" data-aos-duration="3000">
                     Treat yourself or a loved one to
                     our finest ingredients for a moment
                     of pure delight!
                 </h1>
                 <div class="hero-box">
-                    <ul class="hero-list">
+                    <ul class="hero-list" data-aos="fade-up" data-aos-duration="3000">
                         <li class="hero-item">
                             <button class="hero-button buy" type="button">Buy now</button>
                         </li>
@@ -84,7 +86,8 @@
                             <a class="hero-button" href="#hero-how" type="button">How it’s made</a>
                         </li>
                     </ul>
-                    <a class="hero-scroll" href="#scroll">
+                    <a class="hero-scroll" href="#scroll" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="3000">
                         <span class="hero-text">scroll down</span>
                         <!-- <img class="hero-img" src="./img/scroll.webp" alt="Лого карти1"> -->
                         <span class="hero-svg-wrapper">
@@ -96,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section class="benefits">
+        <section class="benefits" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="container benefits-container">
                 <h2 class="benefits-title visually-hidden">BENEFITS OF CHOCOLATE</h2>
                 <ul class="benefits-list">
@@ -148,13 +151,14 @@
             <div class="container">
                 <h2 class="product-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="product-subtext">TASTE</span>
                     SENSATION</h2>
-                <p class="product-text importent-text ">At Simply Chocolate, we believe that the secret to exceptional
+                <p class="product-text importent-text" data-aos="zoom-in">At Simply Chocolate, we believe that the
+                    secret to exceptional
                     chocolate is in the
                     details. From the
                     sourcing of the finest ingredients to the careful crafting of each individual piece, every step of
                     our
                     process adds up to one exceptional taste sensation.</p>
-                <ul class="product-list">
+                <ul class="product-list" data-aos="fade-up" data-aos-duration="3000">
                     <li class="product-item">
                         <div class="product-overlay">
                             <h4 class="product-overlay-title">Milk chocolate</h4>
@@ -239,8 +243,8 @@
                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=J65d3aSkFwM" frameborder="0">
                 </iframe> -->
                 <div class="how-pack">
-                    <img class="how-img" src="./img/how-img.webp" alt="Як виготовляється шоколад">
-                    <div class="how-box">
+                    <img class="how-img" src="./img/how-img.webp" alt="Як виготовляється шоколад" data-aos="fade-right">
+                    <div class="how-box" data-aos="fade-left">
                         <h3 class="how-subtitle">Try our chocolates today and discover the perfect balance of flavor
                         </h3>
                         <ul class="how-list">
@@ -285,25 +289,25 @@
             <div class="container">
                 <h2 class="chocolate-title " id="our">OUR <span class="chocolate-subtext">PRODUCTS</span></h2>
                 <ul class="chocolate-list">
-                    <li class="chocolate-item">
+                    <li class="chocolate-item" data-aos="fade-right" data-aos-duration="2000">
                         <img class="chocolate-img" src="./img/chocolate1.webp" alt="шоколад1">
                         <h3 class="chocolate-subtitle">orange</h3>
                         <p class="chocolate-text">Dark chocolate</p>
                         <button class="chocolate-button">45 UAH</button>
                     </li>
-                    <li class="chocolate-item">
+                    <li class="chocolate-item" data-aos="fade-down" data-aos-duration="2000">
                         <img class="chocolate-img" src="./img/chocolate2.webp" alt="шоколад2">
                         <h3 class="chocolate-subtitle">APPLE&CRANBERRY</h3>
                         <p class="chocolate-text">Milk chocolate</p>
                         <button class="chocolate-button">50 UAH</button>
                     </li>
-                    <li class="chocolate-item">
+                    <li class="chocolate-item" data-aos="fade-down" data-aos-duration="2000">
                         <img class="chocolate-img" src="./img/chocolate3.webp" alt="шоколад3">
                         <h3 class="chocolate-subtitle">lIME&SEA SALT</h3>
                         <p class="chocolate-text">Dark chocolate</p>
                         <button class="chocolate-button">66 UAH</button>
                     </li>
-                    <li class="chocolate-item">
+                    <li class="chocolate-item" data-aos="fade-left" data-aos-duration="2000">
                         <img class="chocolate-img" src="./img/chocolate4.webp" alt="шоколад4">
                         <h3 class="chocolate-subtitle">PINEAPPLE</h3>
                         <p class="chocolate-text">Dark chocolate</p>
@@ -316,28 +320,33 @@
             <div class="container">
                 <h2 class="sellers-title" id="top"><span class="sellers-subtext">TOP</span>SELLERS</h2>
                 <ul class="sellers-list">
-                    <li class="sellers-item"><img class="sellers-img" src="./img/card1.webp" alt="Плитка шоколада1">
+                    <li class="sellers-item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img class="sellers-img" src="./img/card1.webp" alt="Плитка шоколада1">
                     </li>
-                    <li class="sellers-item"><img class="sellers-img" src="./img/card2.webp" alt="Плитка шоколада2">
+                    <li class="sellers-item" data-aos="zoom-in" data-aos-duration="3000"><img class="sellers-img"
+                            src="./img/card2.webp" alt="Плитка шоколада2">
                     </li>
-                    <li class="sellers-item"><img class="sellers-img" src="./img/card3.webp" alt="Плитка шоколада3">
+                    <li class="sellers-item" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img class="sellers-img" src="./img/card3.webp" alt="Плитка шоколада3">
                     </li>
                 </ul>
                 <div class="sellers-box">
-                    <p class="sellers-text">Crazy enough chocolate originates from a bean just like the coffee bean
+                    <p class="sellers-text" data-aos="zoom-out-up" data-aos-duration="3000">Crazy enough chocolate
+                        originates from a bean just like the coffee bean
                         called
                         Cacao. Cacao has been
                         around for thousands of years and was first discovered by the Native American tribe called the
                         Mayans.
                     </p>
-                    <button class="sellers-button" type="button" data-open>Buy now</button>
+                    <button class="sellers-button" type="button" data-open data-aos="zoom-out-up"
+                        data-aos-duration="3000">Buy now</button>
                 </div>
             </div>
         </section>
         <section id="chocolate" class="loved">
             <div class="container">
                 <h2 class="loved-title" id="#chocolate"><span class="loved-subtext">CHOCOLATE </span>IS LOVED</h2>
-                <ul class="loved-list">
+                <ul class="loved-list" data-aos="zoom-out" data-aos-duration="2000">
                     <li class="loved-item">
                         <img class="loved-victoria loved-img" src="./img/victoria.webp" alt="Victoria">
                         <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
@@ -368,7 +377,7 @@
                 <button class="loved-button" data-second-open>Leave a review</button>
             </div>
         </section>
-        <section class="explore">
+        <section class="explore" data-aos="fade-right" data-aos-duration="2000">
             <div class="container">
                 <h2 class="explore-title ">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
                 <p class="explore-text ">From the velvety texture to the rich and complex flavor, our New Chocolate is a
@@ -384,7 +393,8 @@
     <footer id="scroll" class="footer">
         <div class="container">
             <div class="footer-boxes">
-                <h2 class="footer-title"><span class="footer-subtext">Chocolate</span> a delicious cure for a bad day
+                <h2 class="footer-title" data-aos="zoom-out-right" data-aos-duration="2000"><span
+                        class="footer-subtext">Chocolate</span> a delicious cure for a bad day
                 </h2>
                 <div class="footer-contact-box">
                     <h3 class="footer-subtitle">Contact us</h3>
@@ -398,7 +408,7 @@
                     </ul>
                 </div>
 
-                <ul class="footer-masengers">
+                <ul class="footer-masengers" data-aos="fade-left" data-aos-duration="2000">
                     <li class="footer-masenger">
                         <a class="footer-link-masenger" href="https://www.instagram.com">
                             <!-- <img class="footer-img" src="./img/instagram2.webp" alt="інстаграм"> -->
@@ -549,7 +559,12 @@
             </div>
         </div>
     </div>
-   <script type="module" src="./js/last-modal.js"></script>
+    <script type="module" src="./js/last-modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
