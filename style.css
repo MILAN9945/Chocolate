@@ -1,247 +1,63 @@
-html {
-    scroll-behavior: smooth;
-}
 
 
-body {
-    font-family: "Montserrat";
-    font-weight: 500;
 
-    background-color: #FAFAFA;
-    padding-top: 100px;
-}
-
-button {
-    font-family: inherit;
-}
-
-.container {
-    width: 1168px;
-    padding: 0px 16px;
-    border: solid red;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-:root {
-    --text-color: #fff;
-    --title-color: #111111;
-    --subtext-color: #FD9222;
-    --button-text-color: #fff;
-    --our-title-color: #fff;
-    --our-text-color: #111111;
-    --header-sublogo-color: #111111;
-    --header-link-color: #111111;
-    --benefits-subtitle-color: #fff;
-    --product-subtitle-color: #111111;
-    --product-color: #FFFFFF;
-    --how-subtitle-color: #111111;
-    --chocolate-item-color: #fff;
-    --chocolate-title-color: #111111;
-    --chocolate-subtitle-color: #111111;
-    --chocolate-button-bg-color: #FFFFFF;
-    --chocolate-button-color: #111111;
-    --sellers-text-color: #111111;
-    --sellers-button-bg-color: #FD9222;
-    --loved-button-txt-color: #111111;
-    --loved-button-bg-color: #FD9222;
-    --explore-title-color: #fff;
-    --explore-button-bg-color: #FD9222;
-    --footer-title-color: #fff;
-    --footer-link-color: #fff;
-    --footer-subtitle-color: #fff;
-    --footer-link-contact-color: #fff;
-}
-
-/* загальні стилі */
-
-.text {
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.title {
-    font-size: 28px;
-    line-height: 121%;
-    letter-spacing: -0.02em;
-    color: var(--our-title-color);
-}
-
-.importent-text {
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    color: var(--our-text-color);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.smoothness {
-    transition-duration: 1s;
-}
-
-/* секція header */
-
-.header {
-    padding-top: 24px;
-    padding-bottom: 32px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff67;
-    backdrop-filter: blur(7px);
-    box-shadow: 0px 3px 50px 5px rgba(0, 0, 0, 0.74);
-    z-index: 2;
-}
-
-.header-sublogo {
-    font-style: italic;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 111%;
-    letter-spacing: -0.03em;
-    color: var(--header-sublogo-color);
-}
 
 .header-logo {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
+     display: flex;
+     align-items: center;
+     gap: 4px;
+ }
 
-.header-logo-svg {
-    fill: #FD9222;
-    width: 24px;
-    height: 24px;
-    transition: filter 0.3s ease;
-}
+ .header-logo-svg {
+     fill: #FD9222;
+     width: 24px;
+     height: 24px;
+     transition: filter 0.3s ease;
+ }
 
-.header-svg {
-    width: 24px;
-    height: 24px;
-    fill: none;
-    stroke: #111111;
-}
+ .header-svg {
+     width: 24px;
+     height: 24px;
+     fill: none;
+     stroke: #111111;
+ }
 
-.header-link {
-    font-size: 14px;
-    line-height: 114%;
-    letter-spacing: -0.02em;
-    color: var(--header-link-color);
-}
+ .header-link {
+     font-size: 14px;
+     line-height: 114%;
+     letter-spacing: -0.02em;
+     color: var(--header-link-color);
+ }
 
-.header-link:hover {
-    color: #FD9222;
-    transition-duration: 1s;
-}
-
-
-.header-navigation {
-    display: flex;
-}
-
-.header-list {
-    display: flex;
-    gap: 24px;
-    margin-left: 188px;
-    margin-right: auto;
-    align-items: center;
-}
-
-.header-contacts {
-    display: flex;
-    gap: 18px;
-}
-
-.header-contact-img {
-    transition: filter 0.3s ease;
-}
-
-.header-svg:hover {
-    stroke: #FD9222;
-    transition-duration: 1s;
-}
+ .header-link:hover {
+     color: #FD9222;
+     transition-duration: 1s;
+ }
 
 
-/* секція hero */
+ .header-navigation {
+     display: flex;
+ }
 
-.hero {
-    margin: 0px auto;
-    padding-bottom: 72px;
-}
 
-.hero-container {
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(./img/hero_bg.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px;
-    background-size: 1300px;
-    padding: 381px 40px 40px 40px;
-}
 
-.hero-box {
-    display: flex;
+ .header-contacts {
+     display: flex;
+     gap: 18px;
+ }
 
-}
+ .header-contact-img {
+     transition: filter 0.3s ease;
+ }
 
-.hero-button {
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--button-text-color);
-    padding: 14px 40px;
-    border-radius: 50px;
-    background-color: transparent;
-    border: 1px solid #fff;
-}
+ .header-svg:hover {
+     stroke: #FD9222;
+     transition-duration: 1s;
+ }
 
-.hero-button:hover {
-    border: 1px solid #FD9222;
-    color: #FD9222;
-    transition-duration: 1s;
-}
 
-.hero-svg {
-    width: 22px;
-    height: 22px;
-    fill: #FD9222;
-}
 
-.hero-svg-wrapper {
-    width: 38px;
-    height: 38px;
 
-    border-radius: 50%;
-    background-color: #fff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.buy {
-    background-color: #FD9222;
-    border: none;
-}
-
-.buy:hover {
-    background-color: #fcf1e0;
-    color: #FD9222;
-    border: none;
-    transition-duration: 1s;
-}
 
 .hero-img {
     width: 38px;
@@ -249,47 +65,9 @@ button {
 }
 
 
-.hero-title {
-    font-weight: 500;
-    margin-bottom: 32px;
-    letter-spacing: -0.03em;
-    max-width: 484px;
-}
-
-.hero-list {
-    display: flex;
-    gap: 14px;
-}
-
-.hero-scroll {
-    display: flex;
-    gap: 14px;
-    margin-left: auto;
-    align-items: center;
-}
-
-.hero-scroll:hover>.hero-text {
-    color: #FD9222;
-    transition-duration: 1s;
-}
-
-.hero-scroll:hover>.hero-svg-wrapper {
-    background-color: #FD9222;
-    transition-duration: 1s;
-}
-
-.hero-scroll:hover .hero-svg {
-    fill: #FFFFFF;
-    transition-duration: 1s;
-}
 
 
-.hero-text {
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.03em;
-    color: var(--text-color);
-}
+
 
 /* .hero-text:hover {
     color: #FD9222;

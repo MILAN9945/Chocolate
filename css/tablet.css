@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0px 32px;
+    }
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .header-sublogo {
+        font-size: 14px;
+        line-height: 129%;
+    }
+
+    /* секція hero */
+
+    .hero {
+        margin: 0px auto;
+        padding-bottom: 50px;
+    }
+
+    .hero-container {
+
+        background-size: 1300px;
+        padding: 671px 40px 40px 40px;
+    }
+
+    .hero-button {
+        padding: 14px 40px;
+
+    }
+
+    .hero-box {
+        display: flex;
+
+    }
+
+    .hero-svg-wrapper {
+        width: 38px;
+        height: 38px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 121%;
+        max-width: 484px;
+    }
+
+    .hero-scroll {
+        display: flex;
+        gap: 14px;
+        margin-left: auto;
+        align-items: center;
+    }
+
+}

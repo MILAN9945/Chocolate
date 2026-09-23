@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Montserrat";
+    font-weight: 500;
+
+    background-color: #FAFAFA;
+    padding-top: 100px;
+}
+
+button {
+    font-family: inherit;
+}
+
+:root {
+    --text-color: #fff;
+    --title-color: #111111;
+    --subtext-color: #FD9222;
+    --button-text-color: #fff;
+    --our-title-color: #fff;
+    --our-text-color: #111111;
+    --header-sublogo-color: #111111;
+    --header-link-color: #111111;
+    --benefits-subtitle-color: #fff;
+    --product-subtitle-color: #111111;
+    --product-color: #FFFFFF;
+    --how-subtitle-color: #111111;
+    --chocolate-item-color: #fff;
+    --chocolate-title-color: #111111;
+    --chocolate-subtitle-color: #111111;
+    --chocolate-button-bg-color: #FFFFFF;
+    --chocolate-button-color: #111111;
+    --sellers-text-color: #111111;
+    --sellers-button-bg-color: #FD9222;
+    --loved-button-txt-color: #111111;
+    --loved-button-bg-color: #FD9222;
+    --explore-title-color: #fff;
+    --explore-button-bg-color: #FD9222;
+    --footer-title-color: #fff;
+    --footer-link-color: #fff;
+    --footer-subtitle-color: #fff;
+    --footer-link-contact-color: #fff;
+}
+
+/* загальні стилі */
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: var(--our-title-color);
+}
+
+.importent-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--our-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.smoothness {
+    transition-duration: 1s;
+}
