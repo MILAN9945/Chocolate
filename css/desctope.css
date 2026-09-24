@@ -34,4 +34,34 @@
         padding: 395px 20px 20px 20px;
     }
 
+    /* секція benefits */
+
+    .benefits-list {
+        gap: 70px;
+    }
+
+    /* секція product */
+
+    .product {
+        padding: 128px 0px 64px;
+    }
+
+    .product-item {
+        padding: 28px 36px 0px 28px;
+    }
+
+    .product-subtitle {
+        margin-top: 36px;
+    }
+
+    .product-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 19px;
+    }
+
+    .product-overlay {
+        padding: 20px;
+    }
+
 }

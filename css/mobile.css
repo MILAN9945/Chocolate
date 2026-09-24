@@ -51,12 +51,12 @@
  }
 
  .hero-container {
-     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(./img/hero_bg.webp);
+     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero_bg.webp);
      background-repeat: no-repeat;
      background-position: center;
      border-radius: 30px;
      background-size: 1300px;
-     padding: 381px 40px 40px 40px;
+     padding: 381px 20px 20px 20px;
  }
 
  .hero-button {
@@ -125,6 +125,7 @@
  .hero-list {
      display: flex;
      gap: 14px;
+     margin-bottom: 32px;
  }
 
  .hero-scroll {
@@ -161,3 +162,225 @@
      width: 38px;
      height: 38px;
  }
+
+ /* секція benefits */
+
+ .benefits {
+     background-color: #1E1823;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .benefits-subtitle {
+     font-weight: 600;
+     font-size: 18px;
+     color: var(--benefits-subtitle-color);
+     margin-bottom: 18px;
+ }
+
+ .benefits-list {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .benefits-svg {
+     fill: #FD9222;
+     width: 62px;
+     height: 62px;
+     margin-bottom: 22px;
+
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 365px;
+     padding: 15px;
+ }
+
+ .benefits-text {
+     color: rgba(255, 255, 255, 0.7);
+     max-width: 308px;
+ }
+
+ /* секція product */
+
+ .product {
+     padding: 72px 0px 36px;
+ }
+
+ .product-subtext {
+     color: var(--subtext-color);
+ }
+
+ .product-item {
+     border-radius: 15px;
+     width: 270px;
+     height: 270px;
+     padding: 28px 56px 0px 56px;
+
+     position: relative;
+ }
+
+ .product-item:nth-child(1) {
+     background-color: #FD9222;
+ }
+
+ .product-item:nth-child(3) {
+     background-color: #1E1823;
+ }
+
+
+ .product-important {
+     border: solid #FD9222;
+ }
+
+ .products {
+     color: var(--product-color);
+ }
+
+ .product-subtitle {
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 129%;
+     letter-spacing: -0.02em;
+     text-transform: uppercase;
+     color: var(--product-subtitle-color);
+     margin-top: 25px;
+     margin-bottom: 28px;
+ }
+
+ .product-title {
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 120%;
+     letter-spacing: -0.03em;
+     text-align: center;
+     text-transform: uppercase;
+     color: var(--title-color);
+
+     max-width: 283px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .product-text {
+     text-align: center;
+     max-width: 335px;
+     margin: 24px auto 32px;
+ }
+
+ .product-list {
+     display: flex;
+     flex-direction: column;
+     gap: 19px;
+ }
+
+ .product-overlay {
+     background-color: #FFFFFF;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     padding: 28px;
+     border-radius: 14px;
+     transition-duration: 1s;
+ }
+
+ .product-item:hover .product-overlay {
+     opacity: 1;
+     transition-duration: 1s;
+     box-shadow: 1px 3px 15px 0px #000000;
+ }
+
+ .product-overlay-title {
+     font-weight: 600;
+     font-size: 18px;
+     letter-spacing: -0.03em;
+     text-transform: uppercase;
+     color: #111111;
+     margin-bottom: 8px;
+ }
+
+ .product-overlay-list {
+     display: flex;
+     gap: 6px;
+     margin-bottom: 14px;
+ }
+
+ .product-overlay-btn-1 {
+    border-radius: 35px;
+    padding: 6px 16px;
+    width: 81px;
+    height: 24px;
+    background-color: #FD9222;
+    border: none;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.overlay-btn-1 {
+    width: 54px;
+    height: 24px;
+}
+
+.overlay-btn {
+    width: 114px;
+    height: 24px;
+    padding: 0;
+}
+
+.product-overlay-btn-2 {
+    border: 1px solid #FD9222;
+    border-radius: 35px;
+    width: 93px;
+    height: 24px;
+    background-color: #FAFAFA;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    color: #111111;
+}
+
+.product-overlay-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111111;
+}
+
+.product-overlay-text-2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111111;
+}
+
+.product-overlay-text-3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111111;
+}
+
+.product-overlay-text-4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111111;
+}
