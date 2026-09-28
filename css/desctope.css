@@ -64,4 +64,36 @@
         padding: 20px;
     }
 
+    /* секція how */
+
+    .how {
+        padding: 64px 0px 64px;
+    }
+
+    .how-pack {
+        flex-direction: row;
+    }
+
+    .how-subtitle {
+        margin-right: 102px;
+    }
+
+    .how-list {
+        gap: 24px;
+    }
+
+    /* секція chocolate */
+
+    .chocolate {
+        padding: 64px 0px 64px;
+        padding-bottom: 72px;
+    }
+
+    .chocolate-list {
+        display: flex;
+        gap: 18px;
+    }
+ .chocolate-hide {
+  display:block;
+ }
 }

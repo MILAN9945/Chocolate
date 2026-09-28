@@ -57,6 +57,7 @@
      border-radius: 30px;
      background-size: 1300px;
      padding: 381px 20px 20px 20px;
+     background-size: cover;
  }
 
  .hero-button {
@@ -242,7 +243,6 @@
      line-height: 129%;
      letter-spacing: -0.02em;
      text-transform: uppercase;
-     color: var(--product-subtitle-color);
      margin-top: 25px;
      margin-bottom: 28px;
  }
@@ -270,6 +270,7 @@
  .product-list {
      display: flex;
      flex-direction: column;
+     align-items: center;
      gap: 19px;
  }
 
@@ -308,79 +309,216 @@
  }
 
  .product-overlay-btn-1 {
-    border-radius: 35px;
-    padding: 6px 16px;
-    width: 81px;
-    height: 24px;
-    background-color: #FD9222;
-    border: none;
+     border-radius: 35px;
+     padding: 6px 16px;
+     width: 81px;
+     height: 24px;
+     background-color: #FD9222;
+     border: none;
 
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 120%;
-    color: #fff;
-}
+     font-weight: 400;
+     font-size: 10px;
+     line-height: 120%;
+     color: #fff;
+ }
 
-.overlay-btn-1 {
-    width: 54px;
-    height: 24px;
-}
+ .overlay-btn-1 {
+     width: 54px;
+     height: 24px;
+ }
 
-.overlay-btn {
-    width: 114px;
-    height: 24px;
-    padding: 0;
-}
+ .overlay-btn {
+     width: 114px;
+     height: 24px;
+     padding: 0;
+ }
 
-.product-overlay-btn-2 {
-    border: 1px solid #FD9222;
-    border-radius: 35px;
-    width: 93px;
-    height: 24px;
-    background-color: #FAFAFA;
+ .product-overlay-btn-2 {
+     border: 1px solid #FD9222;
+     border-radius: 35px;
+     width: 93px;
+     height: 24px;
+     background-color: #FAFAFA;
 
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 120%;
-    color: #111111;
-}
+     font-weight: 400;
+     font-size: 10px;
+     line-height: 120%;
+     color: #111111;
+ }
 
-.product-overlay-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #111111;
-}
+ .product-overlay-text {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 129%;
+     letter-spacing: -0.02em;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #111111;
+ }
 
-.product-overlay-text-2 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #111111;
-}
+ .product-overlay-text-2 {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 129%;
+     letter-spacing: -0.02em;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #111111;
+ }
 
-.product-overlay-text-3 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #111111;
-}
+ .product-overlay-text-3 {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 129%;
+     letter-spacing: -0.02em;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #111111;
+ }
 
-.product-overlay-text-4 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #111111;
-}
+ .product-overlay-text-4 {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 129%;
+     letter-spacing: -0.02em;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #111111;
+ }
+
+ /* секція how */
+
+ .how {
+     padding: 36px 0px 36px;
+ }
+
+ .how-pack {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .how-box {
+     padding: 20px;
+ }
+
+ .how-subtitle {
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 133%;
+     color: var(--how-subtitle-color);
+
+     margin-bottom: 20px;
+     max-width: 307px;
+
+ }
+
+
+ .how-title {
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 120%;
+     letter-spacing: -0.03em;
+     text-transform: uppercase;
+     text-align: center;
+     color: var(--title-color);
+
+     margin-bottom: 32px;
+ }
+
+
+ .how-list {
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+ }
+
+
+ .how-subtext {
+     color: var(--subtext-color);
+ }
+
+ /* секція chocolate */
+
+ .chocolate {
+     padding: 36px 0px 36px;
+     padding-bottom: 173px;
+ }
+
+ .chocolate-list {
+     display: flex;
+     gap: 18px;
+ }
+
+ .chocolate-item {
+     border: 1px solid rgba(17, 17, 17, 0.1);
+     border-radius: 15px;
+     width: 335px;
+     height: 364px;
+
+     background: var(--chocolate-item-color);
+     padding: 32px 52px;
+ }
+
+ .chocolate-title {
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 120%;
+     letter-spacing: -0.03em;
+     text-transform: uppercase;
+     text-align: center;
+     color: var(--chocolate-title-color);
+     margin-bottom: 32px;
+ }
+
+ .chocolate-subtext {
+     color: var(--subtext-color);
+ }
+
+ .chocolate-subtitle {
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 133%;
+     letter-spacing: -0.02em;
+     text-transform: uppercase;
+     color: var(--chocolate-subtitle-color);
+
+     text-align: center;
+     margin-top: 8px;
+ }
+
+ .chocolate-button {
+     font-weight: 600;
+     font-size: 14px;
+     color: var(--chocolate-button-color);
+
+     border: 1px solid rgba(17, 17, 17, 0.1);
+     border-radius: 100px;
+     width: 94px;
+     height: 33px;
+     background: var(--chocolate-button-bg-color);
+
+     display: block;
+     margin: 0px auto;
+ }
+
+ .chocolate-text {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 117%;
+     letter-spacing: -0.02em;
+     color: rgba(17, 17, 17, 0.7);
+
+     text-align: center;
+     margin-bottom: 18px;
+ }
+
+ .chocolate-hide {
+  display: none;
+ }
+
+ .chocolate-importent {
+    margin-left: auto;
+    margin-right: auto;
+
+ }

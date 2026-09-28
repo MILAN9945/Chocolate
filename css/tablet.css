@@ -19,7 +19,6 @@
     .hero {
         margin: 0px auto;
         padding-bottom: 50px;
-
     }
 
     .hero-container {
@@ -91,6 +90,47 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 19px;
+    }
+
+    /* секція how */
+
+    .how {
+        padding: 50px 0px 50px;
+    }
+
+    .how-box {
+        padding: 32px;
+    }
+
+    .how-subtitle {
+        margin-bottom: 28px;
+        max-width: 350px;
+    }
+
+
+    .how-title {
+        font-size: 24px;
+        line-height: 117%;
+
+        margin-bottom: 50px;
+    }
+
+    /* секція chocolate */
+
+    .chocolate {
+        padding: 50px 0px 50px;
+        padding-bottom: 100px;
+    }
+
+    .chocolate-item {
+        width: 270px;
+        padding: 32px 20px;
+    }
+
+    .chocolate-title {
+        font-size: 24px;
+        line-height: 117%;
+        margin-bottom: 50px;
     }
 
 }
