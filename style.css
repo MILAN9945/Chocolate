@@ -144,235 +144,53 @@
 
 
 
-/* секція loved */
-
-.loved {
-    padding: 64px 0px 64px;
-}
-
-.loved-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 91px;
-}
-
-.loved-subtitle {
-    margin: 54px 0px 24px;
-}
-
-.loved-list {
-    display: flex;
-    gap: 28px;
-    margin: 49px 0px 94px;
-}
-
-.loved-item {
-    border: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 15px;
-    width: 360px;
-    box-shadow: 0 9px 27px 0 rgba(215, 228, 249, 0.25);
-    background: #fff;
-    padding: 0px 24px 42px;
-    position: relative;
-    overflow: visible;
-    height: 200px;
-}
-
-.loved-img {
-    margin: 0px auto;
-    display: block;
-    position: absolute;
-    top: -42px;
-    right: 140px;
-}
-
-.loved-subtitle {
-    text-align: center;
-}
-
-.loved-text {
-    text-align: center;
-    max-width: 312px;
-}
-
-.loved-subtext {
-    color: var(--subtext-color);
-
-}
-
-.loved-button {
-    font-weight: 600;
-    font-size: 18px;
-    color: var(--loved-button-txt-color);
-
-    border: 1px solid var(--loved-button-bg-color);
-    border-radius: 100px;
-    padding: 14px 40px;
-    width: 222px;
-    height: 50px;
-
-    display: block;
-    margin: 0px auto;
-    background-color: transparent;
-}
 
 
-.loved-button:hover {
-    background-color: #FD9222;
-    color: #FFFFFF;
-    transition-duration: 1s;
-}
-
-/* секція explore  */
-
-.explore {
-    padding: 64px 0px 72px;
-    background-image: url(./img/explore-bg.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 370px;
-}
-
-.explore-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--explore-title-color);
-
-    max-width: 372px;
-    margin: 0px auto 24px;
-}
-
-.explore-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: var(--text-color);
-
-    max-width: 467px;
-    margin: 0px auto 24px;
-}
-
-.explore-button {
-    font-weight: 600;
-    font-size: 18px;
-    color: var(--button-text-color);
-
-    border-radius: 100px;
-    padding: 14px 40px;
-    width: 172px;
-    height: 50px;
-    background: var(--explore-button-bg-color);
-
-    display: block;
-    margin: 0px auto 0px;
-    border: none;
-}
-
-.explore-button:hover {
-    background-color: #FCF1E0;
-    color: #FD9222;
-    transition-duration: 1s;
-}
-
-/* секція footer */
-
-.footer {
-    background-color: #1E1823;
-    padding: 50px 0px 50px;
-}
-
-.footer-boxes {
-    display: flex;
-    margin: 0px 0px 62px;
-}
-
-.footer-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 121%;
-    letter-spacing: -0.02em;
-    color: var(--footer-title-color);
-    max-width: 300px;
-}
-
-.footer-masengers {
-    display: flex;
-    gap: 18px;
-    margin-left: 63px;
-}
-
-.footer-contact-box {
-    margin-left: auto;
-}
-
-.footer-list-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.footer-subtext {
-    color: var(--subtext-color);
-}
 
 
-.footer-link {
-    font-size: 14px;
-    line-height: 114%;
-    letter-spacing: -0.02em;
-    color: var(--footer-link-color);
-}
 
-.footer-link:hover {
-    color: #FD9222;
-    transition-duration: 1s;
-}
 
-.footer-subtitle {
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
-    color: var(--footer-subtitle-color);
 
-    margin-bottom: 14px;
-}
 
-.footer-link-contact {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: var(--footer-link-contact-color);
-}
 
-.footer-list {
-    display: flex;
-    gap: 24px;
-}
 
-.footer-svg {
-    width: 24px;
-    height: 24px;
-    fill: none;
-    stroke: #FFFFFF;
-}
 
-.footer-svg:hover {
-    stroke: #FD9222;
-    transition-duration: 1s;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* modal  */
 

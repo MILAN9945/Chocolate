@@ -93,31 +93,81 @@
         display: flex;
         gap: 18px;
     }
- .chocolate-hide {
-  display:block;
- }
- /* секція sellers */
 
-.sellers {
-    padding-top: 64px 0px 64px;
-}
-.sellers-hiden3 {
-    display: block;
-}
-.sellers-img {
-    width: 368px;
-}
-.sellers-text {
-    max-width: 462px;
-}
-.sellers-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--title-color);
-}
+    .chocolate-hide {
+        display: block;
+    }
+
+    /* секція sellers */
+
+    .sellers {
+        padding-top: 64px 0px 64px;
+    }
+
+    .sellers-hiden3 {
+        display: block;
+    }
+
+    .sellers-img {
+        width: 368px;
+    }
+
+    .sellers-text {
+        max-width: 462px;
+    }
+
+    .sellers-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--title-color);
+    }
+
+    /* секція loved */
+
+    .loved {
+        padding: 64px 0px 64px;
+    }
+
+    .loved-hiden3 {
+        display: block;
+    }
+
+    .loved-list {
+        gap: 28px;
+    }
+
+    .loved-item {
+        width: 360px;
+        padding: 0px 24px 42px;
+    }
+
+    .loved-img {
+        right: 140px;
+    }
+
+    /* секція explore  */
+
+    .explore {
+        padding: 64px 0px 72px;
+    }
+
+    .explore-title {
+        max-width: 372px;
+    }
+
+    /* секція footer */
+
+    .footer-boxes {
+        display: flex;
+        margin: 0px 0px 62px;
+    }
+
+    .footer-masengers {
+        margin-left: 63px;
+    }
 
 }
