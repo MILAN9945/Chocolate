@@ -132,5 +132,38 @@
         line-height: 117%;
         margin-bottom: 50px;
     }
+/* секція sellers */
+
+.sellers {
+    padding-top: 50px 0px 50px;
+}
+.sellers-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.sellers-box {
+    display: flex;
+}
+.sellers-img {
+    width: 344px;
+}
+.sellers-button {
+    font-size: 18px;
+    width: 162px;
+    height: 50px;
+}
+.sellers-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--title-color);
+}
 
 }

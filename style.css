@@ -129,73 +129,20 @@
 
 
 
-/* секція sellers */
 
-.sellers {
-    padding-top: 64px 0px 64px;
-}
 
-.sellers-list {
-    display: flex;
-    gap: 16px;
-    margin-top: 50px;
-    margin-bottom: 32px;
-}
 
-.sellers-box {
-    display: flex;
-}
 
-.sellers-subtext {
-    color: var(--subtext-color);
-}
 
-.sellers-img {
-    border-radius: 15px;
-    width: 368px;
-    height: 464px;
-}
 
-.sellers-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    color: var(--sellers-text-color);
 
-    max-width: 462px;
-}
 
-.sellers-button {
-    font-weight: 600;
-    font-size: 18px;
-    color: var(--button-text-color);
 
-    width: 162px;
-    height: 50px;
-    border-radius: 100px;
-    background: var(--sellers-button-bg-color);
 
-    margin-left: auto;
-    border: none;
-}
 
-.sellers-button:hover {
-    background-color: #fcf1e0;
-    color: #FD9222;
-    border: none;
-    transition-duration: 1s;
-}
 
-.sellers-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--title-color);
-}
+
+
 
 /* секція loved */
 
