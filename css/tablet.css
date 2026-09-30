@@ -328,13 +328,93 @@
         padding: 22px 24px;
         box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
     }
+
     .biggest {
-    height: 137px;
-    padding: 22px 24px 93px 24px;
+        height: 137px;
+        padding: 22px 24px 93px 24px;
+    }
+
+    .submit {
+        padding: 14px 40px;
+        width: 133px;
+        height: 45px;
+    }
+
+    /* section second */
+    .second-modal {
+        width: 609px;
+        padding: 48px;
+    }
+
+    .second-btn-close {
+        top: 24px;
+        right: 24px;
+    }
+
+    .second-title {
+        font-size: 24px;
+        line-height: 117%;
+        max-width: 298px;
+        margin-bottom: 40px;
+    }
+
+    .second-list {
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+
+    .second-inpt {
+        border-radius: 13px;
+        padding: 22px 24px;
+    }
+
+    .second-send {
+        padding: 14px 40px;
+    }
+
+    .second-send:hover {
+        color: #FD9222;
+        background-color: #fcf1e0;
+        transform: scale(1.25);
+        transition-duration: 1500ms;
+    }
+
+    /* section last */
+
+    .last-modal {
+        width: 538px;
+    }
+
+    .last-btn-close {
+        top: 24px;
+        right: 24px;
+    }
+
+    .last-modal-box {
+        margin-top: 196px;
+        padding: 40px;
+    }
+
+    .last-title {
+        font-size: 24px;
+        line-height: 117%;
+        max-width: 298px;
+        margin-bottom: 28px;
+    }
+
+    .last-inpt {
+        border-radius: 30px;
+        padding: 13px 24px;
+        font-size: 18px;
+    }
+    .last-subbox {
+    display: flex;
+    gap: 8px;
 }
-.submit {
-    padding: 14px 40px;
-    width: 133px;
-    height: 45px;
+.last-subscribe {
+    border-radius: 100px;
+    padding: 17px 40px;
+    font-size: 14px;
+    margin-left: 0px;
 }
 }
