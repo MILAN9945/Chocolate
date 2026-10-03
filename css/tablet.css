@@ -407,14 +407,49 @@
         padding: 13px 24px;
         font-size: 18px;
     }
+
     .last-subbox {
-    display: flex;
-    gap: 8px;
-}
-.last-subscribe {
-    border-radius: 100px;
-    padding: 17px 40px;
-    font-size: 14px;
-    margin-left: 0px;
-}
+        display: flex;
+        gap: 8px;
+    }
+
+    .last-subscribe {
+        border-radius: 100px;
+        padding: 17px 40px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .menu {
+        width: 290px;
+        height: auto;
+
+        padding: 165px 81px 300px 85px;
+
+    }
+
+    .menu-btn {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 24px;
+        right: 32px;
+    }
+
+    .menu-link {
+        font-weight: 600;
+    }
+
+    .menu-masengers {
+        bottom: 24px;
+        left: 32px;
+    }
+
+    .menu-svg {
+        fill: transparent;
+        stroke: #FFFFFF;
+        width: 24px;
+        height: 24px;
+
+    }
 }

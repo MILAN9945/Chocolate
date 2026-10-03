@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/desctope.css">
@@ -34,6 +34,15 @@
                         <use href="./icon/symbol-defs.svg#icon-logo-chocolate"></use>
                     </svg>
                 </a>
+                <button class="header-btn-menu" data-menu-open>
+                    <!-- <svg class="header-burger">
+                    <use href="./icon/symbol-defs.svg#icon-burger"></use>
+                </svg> -->
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 14H24.5M3.5 7H24.5M3.5 21H24.5" stroke="#111111" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
                 <ul class="header-list" data-aos="zoom-in" data-aos-duration="2000">
                     <li class="header-item">
                         <a class="header-link" href="#home">Home</a>
@@ -324,7 +333,8 @@
                     <li class="sellers-item" data-aos="zoom-in" data-aos-duration="3000"><img class="sellers-img"
                             src="./img/card2.webp" alt="Плитка шоколада2">
                     </li>
-                    <li class="sellers-item sellers-hiden3" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <li class="sellers-item sellers-hiden3" data-aos="fade-left" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img class="sellers-img" src="./img/card3.webp" alt="Плитка шоколада3">
                     </li>
                 </ul>
@@ -395,35 +405,36 @@
                         class="footer-subtext">Chocolate</span> a delicious cure for a bad day
                 </h2>
                 <div class="footer-contact-subbox">
-                <div class="footer-contact-box">
-                    <h3 class="footer-subtitle">Contact us</h3>
-                    <ul class="footer-list-contacts">
-                        <li class="footer-contact">
-                            <a class="footer-link-contact" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                    <div class="footer-contact-box">
+                        <h3 class="footer-subtitle">Contact us</h3>
+                        <ul class="footer-list-contacts">
+                            <li class="footer-contact">
+                                <a class="footer-link-contact" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                            </li>
+                            <li class="footer-contact">
+                                <a class="footer-link-contact"
+                                    href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="footer-masengers" data-aos="fade-left" data-aos-duration="2000">
+                        <li class="footer-masenger">
+                            <a class="footer-link-masenger" href="https://www.instagram.com">
+                                <svg class="footer-svg">
+                                    <use href="./icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="footer-contact">
-                            <a class="footer-link-contact" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                        <li class="footer-masenger">
+                            <a class="footer-link-masenger" href="https://x.com/?lang=ru">
+                                <svg class="footer-svg">
+                                    <use href="./icon/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
-
-                <ul class="footer-masengers" data-aos="fade-left" data-aos-duration="2000">
-                    <li class="footer-masenger">
-                        <a class="footer-link-masenger" href="https://www.instagram.com">
-                            <svg class="footer-svg">
-                                <use href="./icon/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-masenger">
-                        <a class="footer-link-masenger" href="https://x.com/?lang=ru">
-                            <svg class="footer-svg">
-                                <use href="./icon/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-</div>
             </div>
 
             <ul class="footer-list">
@@ -556,7 +567,55 @@
             </div>
         </div>
     </div>
+    <div class="backdrop-menu">
+        <div class="menu is-hidden" data-menu-modal>
+            <button class="menu-btn" data-menu-close>
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.8334 8.16675L8.16669 19.8334M8.16669 8.16675L19.8334 19.8334" stroke="white"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <!-- <svg>
+                <use href="./icon/symbol-defs.svg#icon-last-close"></use>
+            </svg> -->
+            </button>
+
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a class="menu-link" href="#home">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#how">How it’s made?</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#our">Our products</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#top">Top sellers</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#chocolate">Chocolate is loved</a>
+                </li>
+            </ul>
+            <ul class="menu-masengers" data-aos="fade-left" data-aos-duration="2000">
+                <li class="menu-masenger">
+                    <a class="menu-link-masenger" href="https://www.instagram.com">
+                        <svg class="menu-svg">
+                            <use href="./icon/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-masenger">
+                    <a class="menu-link-masenger" href="https://x.com/?lang=ru">
+                        <svg class="menu-svg">
+                            <use href="./icon/symbol-defs.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <script type="module" src="./js/last-modal.js"></script>
+    <script type="module" src="./js/menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com"></script>
     <script>
