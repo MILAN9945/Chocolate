@@ -1,5 +1,6 @@
  .container {
-     width: 355px;
+     width: 100%;
+     max-width: 355px;
      padding: 0px 20px;
      border: solid red;
      margin-left: auto;
@@ -77,11 +78,15 @@
      font-weight: 600;
      font-size: 14px;
      color: var(--button-text-color);
-     padding: 12px 28px;
+     /* padding: 12px 28px; */
      border-radius: 50px;
      background-color: transparent;
      border: 1px solid #fff;
-
+     width: 120px;
+     height: 41px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
  }
 
@@ -467,8 +472,9 @@
  .chocolate-item {
      border: 1px solid rgba(17, 17, 17, 0.1);
      border-radius: 15px;
-     width: 335px;
-     height: 364px;
+     width: 100%;
+     max-width: 335px;
+     height: auto;
 
      background: var(--chocolate-item-color);
      padding: 32px 52px;
@@ -562,8 +568,8 @@
 
  .sellers-img {
      border-radius: 15px;
-     width: 335px;
-     height: 464px;
+     max-width: 100%;
+     height: auto;
  }
 
  .sellers-text {
@@ -644,7 +650,8 @@
  .loved-item {
      border: 1px solid rgba(17, 17, 17, 0.1);
      border-radius: 15px;
-     width: 335px;
+     max-width: 335px;
+     width: 100%;
      box-shadow: 0 9px 27px 0 rgba(215, 228, 249, 0.25);
      background: #fff;
      padding: 0px 18px 42px;
@@ -657,8 +664,10 @@
      margin: 0px auto;
      display: block;
      position: absolute;
-     top: -42px;
-     right: 123px;
+     top: -30%;
+     right: 33%;
+     width: 100%;
+     max-width: 80px;
  }
 
  .loved-subtitle {
@@ -777,7 +786,7 @@
  .footer-masengers {
      display: flex;
      gap: 14px;
-     margin-left: 100px;
+     margin-left: auto;
  }
 
  .footer-contact-subbox {
@@ -1136,6 +1145,7 @@
  }
 
  .last-inpt {
+     width: 100%;
      border: 1.50px solid rgba(17, 17, 17, 0.05);
      border-radius: 25px;
      padding: 13px 18px;
@@ -1159,7 +1169,6 @@
      font-size: 14px;
      color: #fff;
      border: none;
-     margin-left: -50px;
  }
 
  .last-subscribe:hover {
@@ -1207,7 +1216,7 @@
      color: #fff;
  }
 
-  .menu-link:hover {
+ .menu-link:hover {
      color: #FD9222;
      transform: scale(1.05);
      transition-duration: 1500ms;
@@ -1228,8 +1237,9 @@
      height: 22px;
 
  }
-   .menu-svg:hover {
-    stroke: #FD9222;
+
+ .menu-svg:hover {
+     stroke: #FD9222;
      transform: scale(1.05);
      transition-duration: 1500ms;
  }

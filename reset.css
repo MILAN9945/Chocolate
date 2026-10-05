@@ -21,4 +21,10 @@ padding: 0px;
 
 button {
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+img {
+    width: 100%;
 }
