@@ -27,7 +27,8 @@
     }
 
     .hero-button {
-        padding: 14px 40px;
+        width: 144px;
+        height: 45px;
 
     }
 
@@ -140,6 +141,11 @@
         padding-top: 50px 0px 50px;
     }
 
+ .sellers-text {
+     bottom: 0;
+ }
+
+    
     .sellers-list {
         display: flex;
         flex-direction: row;

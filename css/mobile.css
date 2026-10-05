@@ -549,11 +549,15 @@
      padding-top: 36px 0px 36px;
  }
 
+ .sellers-container {
+    position: relative;
+ }
+
  .sellers-list {
      display: flex;
      flex-direction: column;
      align-items: center;
-     gap: 16px;
+     gap: 142px;
      margin-top: 32px;
      margin-bottom: 20px;
  }
@@ -580,6 +584,8 @@
      color: var(--sellers-text-color);
 
      max-width: 306px;
+     position: absolute;
+     bottom: 480px;
  }
 
  .sellers-button {
